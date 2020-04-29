@@ -5,6 +5,14 @@ Nexus is one a artifact repository which helps to store your build outcomes.
 ### Prerequisites
 
 1. EC2 instance with java 
+yum -y update
+yum install java-1.8.0-openjdk
+java -version
+update-alternatives --config java
+vim .bash_profile
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/jre/bin/java
+Source .bash_profile
+echo $JAVA_HOME
 
 ### Implementation steps 
 
